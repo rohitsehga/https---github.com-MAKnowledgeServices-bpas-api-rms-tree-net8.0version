@@ -1,0 +1,99 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace ResourceRequestService.Models.Repository
+{
+    public partial class IpActivity
+    {
+        public short PrIden { get; set; }
+        public short AcIden { get; set; }
+        public string AcName { get; set; }
+        public string AcUser { get; set; }
+        public string AcType { get; set; }
+        public string AcStat { get; set; }
+        public int? AcPlef { get; set; }
+        public int? AcAcef { get; set; }
+        public int? AcAdef { get; set; }
+        public int? AcFsef { get; set; }
+        public int? AcHoef { get; set; }
+        public DateTime? AcPlst { get; set; }
+        public DateTime? AcPlfi { get; set; }
+        public DateTime? AcAcst { get; set; }
+        public DateTime? AcAcfi { get; set; }
+        public DateTime? AcHodt { get; set; }
+        public DateTime? AcDedt { get; set; }
+        public string AcAdap { get; set; }
+        public string AcInpt { get; set; }
+        public string AcOutt { get; set; }
+        public string AcDocs { get; set; }
+        public string AcRevu { get; set; }
+        public string AcAccr { get; set; }
+        public double? AcFixc { get; set; }
+        public double? AcFixp { get; set; }
+        public double? AcAcct { get; set; }
+        public double? AcVarc { get; set; }
+        public double? AcVarp { get; set; }
+        public int? AcNote { get; set; }
+        public int? AcForm { get; set; }
+        public short? AcStok { get; set; }
+        public short? AcFtok { get; set; }
+        public string AcLevl { get; set; }
+        public string AcRept { get; set; }
+        public string AcUsr1 { get; set; }
+        public string AcUsr2 { get; set; }
+        public string AcUsr3 { get; set; }
+        public string AcUsr4 { get; set; }
+        public string AcQuer { get; set; }
+        public DateTime? AcErst { get; set; }
+        public DateTime? AcLafi { get; set; }
+        public int? AcDura { get; set; }
+        public DateTime? AcBkst { get; set; }
+        public short? AcNumu { get; set; }
+        public string AcUtyp { get; set; }
+        public double? AcBcws { get; set; }
+        public double? AcBcwp { get; set; }
+        public DateTime? AcErfi { get; set; }
+        public DateTime? AcLast { get; set; }
+        public int? AcPlsz { get; set; }
+        public int? AcAcsz { get; set; }
+        public int? AcPldf { get; set; }
+        public int? AcAcdf { get; set; }
+        public string AcPrty { get; set; }
+        public int? AcPlrw { get; set; }
+        public int? AcAcrw { get; set; }
+        public double? AcPrwc { get; set; }
+        public double? AcArwc { get; set; }
+        public int? AcRmdf { get; set; }
+        public DateTime? AcDfdt { get; set; }
+        public string AcWbst { get; set; }
+        public short? AcParn { get; set; }
+        public int? AcDisp { get; set; }
+        public int? AcLink { get; set; }
+        public short? AcPrid { get; set; }
+        public short? AcCoty { get; set; }
+        public DateTime? AcCodt { get; set; }
+        public string AcBill { get; set; }
+        public string AcFunc { get; set; }
+        public string AcPhse { get; set; }
+        public short? CaIden { get; set; }
+        public double? AcScva { get; set; }
+        public string AcResp { get; set; }
+        public short? IpLocn { get; set; }
+        public short? AcMeid { get; set; }
+        public short? AcMdid { get; set; }
+        public string AcUnit { get; set; }
+        public DateTime? AcBlst { get; set; }
+        public DateTime? AcBlfi { get; set; }
+        public int? AcBlef { get; set; }
+        public short? AcBlsz { get; set; }
+        public double? AcBlct { get; set; }
+        public string AcPrj1 { get; set; }
+        public string AcPrj2 { get; set; }
+        public string AcPrj3 { get; set; }
+        public string AcPrj4 { get; set; }
+        public int AcNumb { get; set; }
+        public short? AcScmo { get; set; }
+        public string AcRisk { get; set; }
+        public double? AcAfix { get; set; }
+    }
+}

@@ -1,0 +1,35 @@
+﻿/*body {
+}*/
+:root {
+    --primaryColor: #0e385e;
+    --secondaryColor: #f4f4f4;
+    --bgMenuActive: #0e385e;
+    --bgButton: #0e385e;
+/*    --logoImageUrl: url('http://10.50.5.120:3012/AcuityLogo.jpg');*/
+    --logoImageUrl: url('https://internalapp.acuitykp.com/static/AcuityLogo.jpg');
+    --bgAside: var(--primaryColor);
+}
+
+.hc-aside.is-open .hc-aside__logo {
+    /* height: 2rem; */
+    width: 10rem !important;
+    /* min-width: 4rem; */
+}
+
+.hc-aside__logo {
+    background-color: var(--primaryColor) !important;
+    background-image: var(--logoImageUrl) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    border-radius: 0% !important;
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+    min-width: 2.5rem !important;
+    margin: 0.5rem 0 !important;
+    transition: all ease-in .2s !important;
+}
+
+.hc-table__row td {
+    padding: .5rem;
+    text-align: center;
+}
